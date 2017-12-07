@@ -1,0 +1,10 @@
+#Text
+{
+	left:25%;
+	width: 50%;
+}
+#Par
+{
+	display: flex;
+	justify-content: center;
+}

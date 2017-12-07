@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header><img id="banner" src="asset/images/banner.jpg"></header>
-	<div id="test">
+	<div id="Men">
 		<ul id="Menu">
 			<li><a href="stat.php">Statistiques</a></li>
 			<li><a href="guide.html">Guide</a></li>
@@ -18,7 +18,7 @@
 		Texte
 	</p>
 	<footer>
-		<a id="Lien" href="404.html">Qui ne sommes nous pas ?</a>
+		<a id="Lien" href="404.php">Qui ne sommes nous pas ?</a>
 		<div id="Img">
 			<a href="https://iut.univ-lyon1.fr/"><img class="im" src="asset/images/iut.jpg"></a>
 			<a href="https://www.nuitdelinfo.com/"><img class="im" src="asset/images/singe.svg"></a>

@@ -10,10 +10,14 @@ header
 footer
 {
 	background-color: black;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
 }
 body
 {
-	
+	background-color: lightblue;
 }
 #Menu
 {
@@ -24,7 +28,27 @@ body
 	list-style-type: none;
 	width: 75%
 }
-.Men
+#test
 {
-	width:30%;
+	background-color: white;
+}
+#Img
+{
+	width: 50%;
+	height: auto;
+	display:flex;
+	flex-direction: column;
+}
+#Lien
+{
+	width: :50%;
+	height: 100%;
+}
+.im
+{
+	height:50%;
+}
+#rigth
+{
+	width: 100%;
 }

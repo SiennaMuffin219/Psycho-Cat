@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php
+	if (!empty($_GET["download"]))
+	{
+		echo "<script type='text/javascript'>alert("42");</script>";
+		header("Content-disposition: attachment;filename=$_GET["download"]);
+		readfile($_GET["download"]);
+	}
+?>
+
+
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="asset/style.css">
